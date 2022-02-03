@@ -30,21 +30,22 @@ h3 {
 
 a {
   color: rgba(31, 30, 30, 0.932);
+  font-size: 34px;
 }
 a:hover{
-  color: rgb(68, 105, 224);
+  color: rgb(0, 0, 0);
 }
 .card {
   background: rgba(255, 255, 255, 0.6);
   padding: 30px;
   border-radius: 4px;
-  box-shadow: 0 10px 10px rgb(110, 110, 110);
-  width: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   display: inline-block;
-  border-color: rgba(128, 128, 128, 0.87);
+  border-color: rgba(143, 143, 143, 0.61);
   border-width: 1px;
 }
 li {
@@ -58,10 +59,10 @@ ul {
 }
 .container {
   text-align: center;
-  display: inline-block;
-  margin: 0;
+  margin: auto;
+  width: 60vw;
 }
-/*@media (max-width: 960px) {
+@media (max-width: 960px) {
   .container {
     width: 700px;
   }
@@ -77,4 +78,4 @@ ul {
   .container {
     width: 300px;
   }
-}*/
+}
